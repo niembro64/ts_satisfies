@@ -39,15 +39,20 @@ const fifth = {
 
 first.blue.toUpperCase(); // error, secondColors.blue is unknown
 first.green.toUpperCase(); // error, secondColors.green is unknown
+first.platypus.toUpperCase(); 
 
-second.blue.toUpperCase(); //ok it's a string
+second.blue.toUpperCase(); // ok it's a string
 second.green.toUpperCase(); // error, it's a boolean
+second.platypus.toUpperCase(); 
 
 third.blue.toUpperCase();
 third.green.toUpperCase();
+third.platypus.toUpperCase();
 
 fourth.blue.toUpperCase();
 fourth.green.toUpperCase();
+fourth.platypus.toUpperCase();
 
 fifth.blue.toUpperCase();
 fifth.green.toUpperCase();
+fifth.platypus.toUpperCase();
